@@ -1,5 +1,5 @@
 {
-  "agent_model_id": "amax_grpo_qwen3_chkp_540_and_sigma",
+  "agent_model_id": "amity-sigma-v1r",
   "user_model_id": "gpt-4.1",
   "submission_type": "custom",
   "organization": "Amity",
