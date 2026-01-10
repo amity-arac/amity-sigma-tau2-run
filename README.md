@@ -1,4 +1,10 @@
-## This is the modified version of tau2-bench for leaderboard submission of https://huggingface.co/amityco/amax-sigma-thinking-v1r
+## This is the modified version of tau2-bench for leaderboard submission of https://huggingface.co/amityco/amity-sigma-thinking-v1r
+
+### Key Highligh Technique and Enhancement
+#### on retail domain
+- Baseline: `53.5` as model card (https://huggingface.co/Qwen/Qwen3-4B-Thinking-2507)
+- with Auto Prompt Optimization for Agentic Task (`ROAD`): `65.2` as research paper (https://arxiv.org/pdf/2512.24040)
+- with `ROAD` + Finetune using GRPO technique on multi-turn interaction environment: `78.5` ( research paper comming soon )
 
 ### Modified file
 ```
