@@ -3,7 +3,7 @@
 ### Key Highligh Technique and Enhancement
 #### on retail domain
 - Baseline Score: `53.5` as model card (https://huggingface.co/Qwen/Qwen3-4B-Thinking-2507)
-- with Auto Prompt Optimization for Agentic Task (`ROAD`), Score: `65.2` as research paper (https://arxiv.org/pdf/2512.24040)
+- with Auto Optimization for Agentic Task (`ROAD`), Score: `65.2` as research paper (https://arxiv.org/pdf/2512.24040)
 - with `ROAD` + Finetune using GRPO technique on multi-turn interaction environment, Score: `78.5` ( research paper comming soon... )
 
 ### Modified file
