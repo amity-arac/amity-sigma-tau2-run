@@ -2,7 +2,7 @@ export OPENAI_API_KEY="<API_KEY>"
 
 tau2 run \
 --domain retail \
---agent-llm hosted_vllm/qwen3_4b_turnlevel_ft \
+--agent-llm hosted_vllm/amityco/amax-sigma-thinking-v1r \
 --agent-llm-args '{"base_url": "http://localhost:8000/v1", "api_key": "EMPTY"}' \
 --user-llm gpt-4.1 \
 --num-trials 4 \
@@ -11,7 +11,7 @@ tau2 run \
 
 tau2 run \
 --domain airline \
---agent-llm hosted_vllm/qwen3_4b_turnlevel_ft \
+--agent-llm hosted_vllm/amityco/amax-sigma-thinking-v1r \
 --agent-llm-args '{"base_url": "http://localhost:8000/v1", "api_key": "EMPTY"}' \
 --user-llm gpt-4.1 \
 --num-trials 4 \
@@ -20,7 +20,7 @@ tau2 run \
 
 tau2 run \
 --domain telecom \
---agent-llm hosted_vllm/qwen3_4b_turnlevel_ft \
+--agent-llm hosted_vllm/amityco/amax-sigma-thinking-v1r \
 --agent-llm-args '{"base_url": "http://localhost:8000/v1", "api_key": "EMPTY"}' \
 --user-llm gpt-4.1 \
 --num-trials 4 \
