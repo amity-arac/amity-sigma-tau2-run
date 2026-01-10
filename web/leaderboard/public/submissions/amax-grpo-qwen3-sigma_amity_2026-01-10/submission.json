@@ -1,6 +1,6 @@
 {
   "agent_model_id": "amax_grpo_qwen3_chkp_540_and_sigma",
-  "user_model_id": "gpt-4o",
+  "user_model_id": "gpt-4.1",
   "submission_type": "custom",
   "organization": "Amity",
   "contact_email": "touchapon@amity.co",
