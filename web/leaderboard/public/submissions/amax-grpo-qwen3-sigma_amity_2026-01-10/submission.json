@@ -1,0 +1,36 @@
+{
+  "agent_model_id": "amax_grpo_qwen3_chkp_540_and_sigma",
+  "user_model_id": "gpt-4o",
+  "submission_type": "custom",
+  "organization": "Amity",
+  "contact_email": "touchapon@amity.co",
+  "methodology": {
+    "notes": "Use ROAD optimization technics + GRPO finetuning on qwen3-4b-thinking model"
+  },
+  "references": [
+    {
+      "title": "Amity Sigma Tau2 Run",
+      "url": "https://github.com/amity-arac/amity-sigma-tau2-run",
+      "type": "github"
+    }
+  ],
+  "timestamp": "2026-01-10T14:25:15.870232",
+  "metrics": {
+    "retail": {
+      "pass_rate": 0.7851,
+      "avg_turns": 31.99
+    },
+    "airline": {
+      "pass_rate": 0.555,
+      "avg_turns": 28.98
+    },
+    "telecom": {
+      "pass_rate": 0.3289,
+      "avg_turns": 65.88
+    },
+    "overall": {
+      "pass_rate": 0.5563,
+      "avg_turns": 42.28
+    }
+  }
+}
