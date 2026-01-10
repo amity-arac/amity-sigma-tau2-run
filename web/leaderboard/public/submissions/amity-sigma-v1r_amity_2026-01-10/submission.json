@@ -1,36 +1,59 @@
 {
-  "agent_model_id": "amity-sigma-v1r",
-  "user_model_id": "gpt-4.1",
-  "submission_type": "custom",
-  "organization": "Amity",
-  "contact_email": "touchapon@amity.co",
-  "methodology": {
-    "notes": "Use ROAD optimization technics + GRPO finetuning on qwen3-4b-thinking model. We use synthetic data that is synthesized from sigma with human in loop feedback."
+  "model_name": "amity-sigma-v1r",
+  "model_organization": "Amity",
+  "submitting_organization": "Amity",
+  "submission_date": "2026-01-10",
+  "contact_info": {
+    "email": "touchapon@amity.co",
+    "name": "Touchapon K",
+    "github": "amity-arac"
   },
+  "is_new": true,
+  "trajectories_available": true,
   "references": [
     {
-      "title": "Amity Sigma Tau2 Run",
-      "url": "https://github.com/amity-arac/amity-sigma-tau2-run",
-      "type": "github"
+      "title": "Amity Sigma Thinking Model",
+      "url": "https://huggingface.co/amityco/amity-sigma-thinking-v1r",
+      "type": "huggingface"
+    },
+    {
+      "title": "ROAD: Auto Optimization for Agentic Tasks",
+      "url": "https://arxiv.org/abs/2512.24040",
+      "type": "paper"
     }
   ],
-  "timestamp": "2026-01-10T14:25:15.870232",
-  "metrics": {
+  "results": {
     "retail": {
-      "pass_rate": 0.7851,
-      "avg_turns": 31.99
+      "pass_1": 80.70,
+      "pass_2": 89.47,
+      "pass_3": 93.86,
+      "pass_4": 95.61,
+      "cost": null
     },
     "airline": {
-      "pass_rate": 0.555,
-      "avg_turns": 28.98
+      "pass_1": 62.00,
+      "pass_2": 70.00,
+      "pass_3": 72.00,
+      "pass_4": 72.00,
+      "cost": null
     },
     "telecom": {
-      "pass_rate": 0.3289,
-      "avg_turns": 65.88
-    },
-    "overall": {
-      "pass_rate": 0.5563,
-      "avg_turns": 42.28
+      "pass_1": 31.58,
+      "pass_2": 37.72,
+      "pass_3": 45.61,
+      "pass_4": 46.49,
+      "cost": null
+    }
+  },
+  "methodology": {
+    "evaluation_date": "2026-01-03",
+    "tau2_bench_version": "v1.0",
+    "user_simulator": "gpt-4.1",
+    "notes": "Base model: Qwen3-4B-Thinking. Training approach: Synthetic data generation from Amity Sigma with human-in-the-loop feedback, followed by ROAD (Auto Optimization for Agentic Tasks) optimization techniques and GRPO finetuning.",
+    "verification": {
+      "modified_prompts": true,
+      "omitted_questions": false,
+      "details": "Modified retail domain policy.md for ROAD optimization. All tasks evaluated with 4 trials each. Model served via vLLM with deepseek_r1 reasoning parser."
     }
   }
 }

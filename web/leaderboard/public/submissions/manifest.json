@@ -12,7 +12,8 @@
     "o4-mini_openai_2024-06-20",
     "gpt-5_sierra_2025-08-09",
     "qwen3-max_qwen_2024_09_23",
-    "gemini-3-pro_google_2025-11-18"
+    "gemini-3-pro_google_2025-11-18",
+    "amity-sigma-v1r_amity_2026-01-10"
   ],
-  "last_updated": "2025-11-18T00:00:00Z"
+  "last_updated": "2026-01-10T00:00:00Z"
 }
