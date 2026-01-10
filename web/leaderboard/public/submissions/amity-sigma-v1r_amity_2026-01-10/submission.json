@@ -5,7 +5,7 @@
   "organization": "Amity",
   "contact_email": "touchapon@amity.co",
   "methodology": {
-    "notes": "Use ROAD optimization technics + GRPO finetuning on qwen3-4b-thinking model"
+    "notes": "Use ROAD optimization technics + GRPO finetuning on qwen3-4b-thinking model. We use synthetic data that is synthesized from sigma with human in loop feedback."
   },
   "references": [
     {
