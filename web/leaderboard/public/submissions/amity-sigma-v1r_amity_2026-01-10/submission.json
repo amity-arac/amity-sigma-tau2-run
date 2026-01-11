@@ -24,24 +24,24 @@
   ],
   "results": {
     "retail": {
-      "pass_1": 80.70,
-      "pass_2": 89.47,
-      "pass_3": 93.86,
-      "pass_4": 95.61,
+      "pass_1": 78.51,
+      "pass_2": 67.40,
+      "pass_3": 60.53,
+      "pass_4": 56.14,
       "cost": null
     },
     "airline": {
-      "pass_1": 62.00,
-      "pass_2": 70.00,
-      "pass_3": 72.00,
-      "pass_4": 72.00,
+      "pass_1": 55.50,
+      "pass_2": 45.00,
+      "pass_3": 38.50,
+      "pass_4": 34.00,
       "cost": null
     },
     "telecom": {
-      "pass_1": 31.58,
-      "pass_2": 37.72,
-      "pass_3": 45.61,
-      "pass_4": 46.49,
+      "pass_1": 32.89,
+      "pass_2": 24.71,
+      "pass_3": 19.96,
+      "pass_4": 16.67,
       "cost": null
     }
   },
